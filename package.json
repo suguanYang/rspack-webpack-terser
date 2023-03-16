@@ -1,0 +1,40 @@
+{
+  "name": "rspack-webpack-terser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:webpack": "webpack --config ./webpack.config.js",
+    "build:rspack": "rspack --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "classnames": "2.3.2",
+    "dayjs": "1.11.4",
+    "lodash": "4.17.21",
+    "react": "18.2.0",
+    "react-beautiful-dnd": "13.1.0",
+    "react-dnd": "14.0.5",
+    "react-dnd-html5-backend": "14.1.0",
+    "react-dom": "18.2.0",
+    "react-draggable": "4.4.4",
+    "react-i18next": "11.15.5",
+    "react-redux": "8.0.2",
+    "react-rnd": "10.3.5",
+    "react-router": "5.2.1",
+    "react-router-dom": "5.3.0",
+    "react-test-renderer": "17.0.1",
+    "recoil": "0.7.6",
+    "redux": "4.2.0",
+    "redux-mock-store": "1.5.4",
+    "redux-thunk": "2.4.1"
+  },
+  "devDependencies": {
+    "webpack": "5.76.2",
+    "webpack-cli": "5.0.1",
+    "@rspack/cli": "^0.1.1",
+    "@rspack/plugin-minify": "^0.1.1"
+  },
+  "resolutions": {
+    "terser": "5.16.1"
+  }
+}
